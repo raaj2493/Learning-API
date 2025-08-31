@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:apilearn/Postmodel.dart';
+import 'package:apilearn/GET/models/Postmodel.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 

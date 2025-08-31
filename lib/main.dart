@@ -1,6 +1,7 @@
 // ignore_for_file: unused_import
 
-import 'package:apilearn/home.dart';
+import 'package:apilearn/GET/APIs/postapi.dart';
+import 'package:apilearn/GET/APIs/userapi.dart';
 
 import 'package:flutter/material.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage()
+      home: Userapi(),
     );
   }
 }
